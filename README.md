@@ -1,62 +1,199 @@
-# Hệ thống Quản lý Cửa hàng Điện thoại
+# 📱 Phone Selling Website
 
-## Giới thiệu
-Đây là **dự án học tập** được thực hiện trong khuôn khổ môn học **Java Technology** tại Trường Đại học Tôn Đức Thắng.
+## 📌 Introduction
 
-Dự án nhằm giúp sinh viên **hiểu luồng hoạt động của hệ thống**, **phân tích yêu cầu** và **kiểm thử chức năng** của một ứng dụng quản lý cửa hàng điện thoại, bao gồm các nghiệp vụ cơ bản như quản lý sản phẩm, người dùng và bán hàng.
+This project is a **Mobile Phone E-commerce Website** developed as a final course project.  
+The system simulates a real-world online phone store with full user and admin functionalities.
 
----
-
-## Mục tiêu học tập
-- Tìm hiểu cấu trúc và luồng xử lý của một ứng dụng web
-- Phân tích các chức năng dựa trên yêu cầu người dùng
-- Thực hành **kiểm thử chức năng thủ công (Manual Testing)**
-- Thiết kế test case cho các chức năng chính
-- Nhận diện và ghi nhận lỗi phát sinh trong quá trình sử dụng hệ thống
+The application was built using **Java Spring Boot**, following the **MVC architecture**, and integrates a relational database using **JPA & Hibernate**.
 
 ---
 
-## Chức năng chính
-- Quản lý sản phẩm và danh mục điện thoại
-- Quản lý người dùng và phân quyền
-- Xử lý bán hàng và đơn hàng
-- Lưu trữ và truy xuất dữ liệu
+## 🎯 Project Objectives
+
+- Build a fully functional e-commerce system
+- Apply MVC architecture in real-world development
+- Implement authentication & role-based authorization
+- Design and manage relational database
+- Perform system analysis with UML diagrams
+- Follow the Software Development Life Cycle (Waterfall Model)
 
 ---
 
-## Phạm vi kiểm thử
-- Phân tích yêu cầu chức năng
-- Thiết kế và thực hiện test case thủ công
-- Kiểm thử luồng nghiệp vụ chính
-- Ghi nhận và mô tả lỗi phát sinh
+## 🏗️ System Architecture
+
+- **Development Model:** Waterfall
+- **Architecture Pattern:** MVC (Model – View – Controller)
+
+### Main Layers
+- Controller Layer
+- Service Layer
+- Repository Layer
+- Model Layer
+- View Layer (Thymeleaf)
 
 ---
 
-## Công nghệ sử dụng
-(Dùng cho mục đích học tập)
-- Java (Spring Framework)
-- MySQL
+## 🛠️ Technologies Used
+
+### 🔹 Backend
+- Java
+- Spring Boot
+- Spring MVC
+- Spring Security
+- Hibernate
+- JPA
+- JDBC
+
+### 🔹 Frontend
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
 - Thymeleaf
+
+### 🔹 Database
+- MySQL Server
+
+### 🔹 Tools
 - IntelliJ IDEA
+- GitHub
+- Trello
 
 ---
 
-## Hướng dẫn chạy chương trình
-1. Clone repository về máy
-2. Mở project bằng IDE hỗ trợ Spring (ví dụ: IntelliJ IDEA)
-3. Khởi động MySQL và tạo database có tên `phone-selling-web`
-4. Cấu hình kết nối database trong project
-5. Chạy ứng dụng và truy cập: http://localhost:8080/
+## 👥 Actors
+
+- **Admin**
+- **User (Customer)**
+- **Viewer**
 
 ---
 
-## Ghi chú
-- Dự án phục vụ **mục đích học tập**
-- Trọng tâm là **phân tích và kiểm thử**, không hướng tới triển khai thực tế
-- Một số công cụ hỗ trợ AI được tham khảo trong quá trình học
+## ✨ Main Features
+
+### 🔐 Authentication & Authorization
+- Register
+- Login
+- Logout
+- Change password
+- Forgot password
+- Role-based access control
+
+### 🛍️ User Features
+- View homepage
+- Browse product categories
+- View product details
+- Add to cart
+- Checkout & payment
+- Order confirmation via email
+- View order history
+- Update personal information
+
+### 🛠️ Admin Features
+- Manage users
+- Manage products (CRUD)
+- Manage categories
+- View access history
+- Manage orders
 
 ---
 
-## Tác giả
-Nguyễn Minh Khang  
-Fresher QA / Manual Tester
+# 📷 System Screenshots
+
+---
+
+## 🏠 Homepage
+![Home](https://drive.google.com/uc?export=view&id=1sZrPI97FY6BlXIU9T7tbIn_zZ206yqvw)
+
+---
+
+## 📂 Product Categories
+![Danh Muc](https://drive.google.com/uc?export=view&id=1LqVgyp_VcQQ37R_z9rmgdy_478F2CocS)
+
+---
+
+## 📱 Product Details
+![Chi Tiet San Pham](https://drive.google.com/uc?export=view&id=18AWrKo5B9mrhBpiNDdw30QtwLjytiPaq)
+
+---
+
+## 🛒 Shopping Cart
+![Gio Hang](https://drive.google.com/uc?export=view&id=1zMLEYK-iNq50VSagmc3wOCQMdYxuAZOU)
+
+---
+
+## 💳 Checkout
+![Thanh Toan](https://drive.google.com/uc?export=view&id=1UA44_no73JkqCC-Orz0rCXOdGiSdOi2_)
+
+---
+
+## 📧 Order Confirmation via Email
+![Email Confirmation](https://drive.google.com/uc?export=view&id=1GJOigIQJ_X7IVHP5GmQ2mok6paRO9nZh)
+
+---
+
+## 🔐 Login Page
+![Login](https://drive.google.com/uc?export=view&id=1bey1EkX2wYBqDOPZe8_R7h0Xl3z7SZF_)
+
+---
+
+## 📝 Register Page
+![Dang Ky](https://drive.google.com/uc?export=view&id=1j9sDE7q-ILLVJqmt9DH5QVcFL_p8mju_)
+
+---
+
+## 🔑 Change Password
+![Doi Mat Khau](https://drive.google.com/uc?export=view&id=14pCPQvo-u8mrJ9Y0xcS1s940buopcazk)
+
+---
+
+## 👤 Update Personal Information
+![Sua Thong Tin](https://drive.google.com/uc?export=view&id=1Qt9US0g0zjrCEEQl3M9BgGIk7O-ttTKA)
+
+---
+
+## 📜 Access History
+![Lich Su Truy Cap](https://drive.google.com/uc?export=view&id=1KgpL5ALqhx-7JNlAynvz_AGCasYAVdel)
+
+---
+
+## 🛠️ Admin - Manage Users
+![Quan Ly Nguoi Dung](https://drive.google.com/uc?export=view&id=1ad8SawVxkB764ku2Sr96fqCYYcacL9Vm)
+
+---
+
+## 🛠️ Admin - Manage Products
+![Quan Ly San Pham](https://drive.google.com/uc?export=view&id=1nNA32lVO0RoLhzGdzz0cueCtyPpV0oSj)
+
+---
+
+## 🗄️ Database Design
+![Database](https://drive.google.com/uc?export=view&id=1V_ndbHHj79O_JNkG9C76jWXiWWRMUGtI)
+
+---
+
+## 📚 Academic Context
+
+This project was developed as a **Final Course Project** to apply knowledge in:
+
+- Web Development
+- Software Engineering
+- System Analysis & Design
+- Database Management
+
+---
+
+## 👨‍💻 Authors
+
+**Nguyễn Minh Khang**
+Manual Tester  
+
+**Ngô Tấn Lợi**
+Developer  
+
+**Nguyễn Minh Phương**
+Developer  
+
+---
+
