@@ -186,14 +186,13 @@ This project was developed as a **Final Course Project** to apply knowledge in:
 
 ## 👨‍💻 Authors
 
-**Nguyễn Minh Khang**
+**Nguyễn Minh Khang**  
 Manual Tester  
 
-**Ngô Tấn Lợi**
-Developer  
+**Ngô Tấn Lợi**  
+Developer    
 
-**Nguyễn Minh Phương**
-Developer  
+**Nguyễn Minh Phương**  
+Developer   
 
 ---
-
